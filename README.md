@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Miller Kodish</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=miller11k&label=Profile%20views&color=0e75b6&style=flat" alt="miller11k" /> </p>
-
 - 🔭 I’m currently working on [Boiler Books](boilerbooks.me)
 
 - 🌱 I’m currently learning **Pyhton for Data Science, Advanced C Programming**
@@ -12,6 +10,9 @@
 - 💬 Ask me about **My projects**
 
 - 📫 How to reach me **m.kodish@yahoo.com**
+
+
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=miller11k&label=Profile%20views&color=0e75b6&style=flat" alt="miller11k" /> </p>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
