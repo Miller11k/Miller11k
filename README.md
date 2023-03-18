@@ -5,7 +5,7 @@
 
 - 🌱 I’m currently learning **Pyhton for Data Science, Advanced C Programming**
 
-- 👨‍💻 All of my projects are available at [millerkodish.com](millerkodish.com)
+- 👨‍💻 All of my projects are available at [millerkodish.com]
 
 - 💬 Ask me about **My projects**
 
