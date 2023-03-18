@@ -1,5 +1,5 @@
 <h1 align="center">👋 Hi I'm Miller Kodish 👋</h1>
-<h3 align="center">A passionate frontend developer from Chicago, IL</h3>
+<h3 align="center">A passionate college student, from Chicago, IL</h3>
 
 - 🔭 I’m currently working on [Boiler Books](https://boilerbooks.me)
 
