@@ -1,11 +1,11 @@
 <h1 align="center">Hi 👋, I'm Miller Kodish</h1>
 <h3 align="center">A passionate frontend developer from Chicago, IL</h3>
 
-- 🔭 I’m currently working on [Boiler Books](boilerbooks.me)
+- 🔭 I’m currently working on [Boiler Books](https://boilerbooks.me)
 
 - 🌱 I’m currently learning **Pyhton for Data Science, Advanced C Programming**
 
-- 👨‍💻 All of my projects are available at [millerkodish.com]
+- 👨‍💻 All of my projects are available at [millerkodish.com](https://millerkodish.com)
 
 - 💬 Ask me about **My projects**
 
