@@ -7,7 +7,7 @@
 
 - 👨‍💻 All of my projects are available at [millerkodish.com](https://millerkodish.com)
 
-- 💬 Ask me about **My projects**
+- 💬 Ask me about **What I am reading**
 
 - 📫 How to reach me **m.kodish@yahoo.com**
 
