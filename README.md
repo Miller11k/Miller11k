@@ -1,15 +1,15 @@
 <h1 align="center">👋 Hi I'm Miller Kodish 👋</h1>
 <h3 align="center">A passionate college student, from Chicago, IL</h3>
 
-- 🔭 I’m currently working on [Movies In Minutes](https://github.com/Miller11k/Movies-in-Minutes)
+- 🔭 I’m currently working on: [Movies In Minutes](https://github.com/Miller11k/Movies-in-Minutes)
 
-- 🌱 I’m currently learning **JDBC For Oracle**
+- 🌱 I’m currently learning: **JDBC For Oracle**
 
-- 👨‍💻 Highlights of my projects are available at [millerkodish.com](https://millerkodish.com)
+- 👨‍💻 Highlights of my projects are available at: [millerkodish.com](https://millerkodish.com)
 
-- 💬 Ask me about [**What I am reading**](https://www.goodreads.com/cs/book/show/25666050-algorithms-to-live-by)
+- 💬 Ask me about: [**What I am reading**](https://www.goodreads.com/cs/book/show/25666050-algorithms-to-live-by)
 
-- 📫 How to reach me [**m.kodish@yahoo.com**](mailto:m.kodish@yahoo.com)
+- 📫 How to reach me: [**m.kodish@yahoo.com**](mailto:m.kodish@yahoo.com)
 
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=miller11k&label=Profile%20views&color=0e75b6&style=flat" alt="miller11k" /> </p>
