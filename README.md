@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on: [Movies In Minutes](https://github.com/Miller11k/Movies-in-Minutes)
 
-- 🌱 I’m currently learning: **JDBC For Oracle**
+- 🌱 I’m currently learning: **Data Structures in C**
 
 - 👨‍💻 Highlights of my projects are available at: [millerkodish.com](https://millerkodish.com)
 
