@@ -25,25 +25,20 @@
 <a href="https://linkedin.com/in/miller-kodish" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="miller kodish" height="30" width="40" /></a>
 </p> -->
 
-<h3 align="left">🔗 Let's Connect:</h3>
+<h3 align="left">🔗 &nbsp;Let's Connect:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/miller-kodish" target="blank"><img align="center" src="assets/Images/LinkedIn Button.png" alt="miller kodish" height="60" width="" /></a>
 </p>
 
-<br>
 
-<details>
-  <summary style="font-size: 18px;"><b>🏆&nbsp;&nbsp;Awards</b></summary>
-    <br>
+<h3>🏆&nbsp;Awards</h3>
 
 - [Boilermake XI: Most Creative Use of Redis Cloud](https://devpost.com/software/boilergrams)
-</details>
 
-<br>
 
-<details>
-  <summary style="font-size: 18px;"><b>🛠️&nbsp;&nbsp;Languages&nbsp;and&nbsp;Tools</b></summary>
-  <br/>
+
+
+<h3> 🛠️&nbsp;Languages&nbsp;and&nbsp;Tools</h3>
 <p align="left"> 
 
 <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> 
@@ -88,8 +83,6 @@
 <a href="https://developer.apple.com/swift/" target="_blank" rel="noreferrer"> 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg" alt="swift" width="40" height="40"/> 
 </a> 
-</p>
-</details>
 </p>
 <br>
 
