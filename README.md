@@ -8,13 +8,7 @@
 
 <h3 align="left">What I'm Up To</h3>
 
-- 🔭 I’m currently working on: [Movies In Minutes](https://github.com/Miller11k/Movies-in-Minutes)
-
-- 🌱 I’m currently learning: Rust
-
 - 👨‍💻 Highlights of my projects are available at: [millerkodish.com](https://millerkodish.com)
-
-- 💬 Ask me about: [**What I'm reading**](https://www.goodreads.com/cs/book/show/25666050-algorithms-to-live-by)
 
 - 📫 How to reach me: [**m.kodish@yahoo.com**](mailto:m.kodish@yahoo.com)
 
