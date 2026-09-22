@@ -5,7 +5,7 @@
 
 <!-- Typing tagline -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=0E75B6&center=true&vCenter=true&width=620&lines=Software+Engineer;Backend+%2B+systems+engineering;Agentic+AI+pipelines" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=0E75B6&center=true&vCenter=true&width=620&lines=Software+Engineer;Backend+%2B+Systems+Engineering" alt="typing" />
 </p>
 
 <!-- Contact badges -->
@@ -32,7 +32,7 @@
 
 ```yaml
 miller:
-  focus: [backend, systems programming, AI tooling]
+  focus: [backend, systems programming]
   also: [frontend (React, Next.js)]
   learning: [distributed systems, agentic pipelines]
 ```
@@ -64,29 +64,47 @@ miller:
 
 ## Featured Work
 
-<p align="center">
-  <a href="https://github.com/miller11k/Agentic-Figure-Drawing"><img src="https://img.shields.io/badge/SAGE-Agentic--Figure--Drawing-0e75b6?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <img src="https://img.shields.io/github/languages/top/miller11k/Agentic-Figure-Drawing?style=for-the-badge&color=1a1b27&labelColor=0e75b6" />
-  <img src="https://img.shields.io/github/last-commit/miller11k/Agentic-Figure-Drawing?style=for-the-badge&color=1a1b27&labelColor=0e75b6" />
-</p>
+<table>
+<tr>
+<!-- SAGE card -->
+<td width="50%" valign="top">
 
-| Project | What it is | Stack |
-|---|---|---|
-| **SAGE** (team) | Agentic diagram editor: multi-step pipeline that parses intent, plans edits, and validates/repairs draw.io XML with full version history | Next.js, TypeScript, Prisma, OpenAI |
-| **Boilergrams** | Boilermake XI winner, *Most Creative Use of Redis Cloud* | Redis Cloud |
+<h3 align="center"><a href="https://github.com/miller11k/Agentic-Figure-Drawing">SAGE</a></h3>
+<p align="center"><sub>AGENTIC DIAGRAM EDITOR &nbsp;·&nbsp; TEAM PROJECT</sub></p>
 
-<p align="center">
-  <a href="https://devpost.com/software/boilergrams"><img src="https://img.shields.io/badge/Boilermake%20XI-Most%20Creative%20Use%20of%20Redis%20Cloud-DC382D?style=for-the-badge&logo=redis&logoColor=white" /></a>
-</p>
-
----
-
-## GitHub
+Multi-step TypeScript pipeline that parses user intent, plans edits, and transforms draw.io XML, with a validate/repair pass and a versioned session history that supports revert and per-operation traces.
 
 <p align="center">
-  <img src="https://img.shields.io/github/followers/miller11k?style=for-the-badge&logo=github&color=1a1b27&labelColor=0e75b6" />
-  <img src="https://img.shields.io/github/stars/miller11k?style=for-the-badge&logo=github&color=1a1b27&labelColor=0e75b6" />
+  <img src="https://skillicons.dev/icons?i=nextjs,ts,react,tailwind,prisma,sqlite,docker" />
 </p>
+
+<p align="center">
+  <a href="https://github.com/miller11k/Agentic-Figure-Drawing"><img src="https://img.shields.io/badge/View%20Repo-0e75b6?style=flat-square&logo=github&logoColor=white" /></a>
+  <img src="https://img.shields.io/github/languages/top/miller11k/Agentic-Figure-Drawing?style=flat-square&color=1a1b27" />
+  <img src="https://img.shields.io/github/last-commit/miller11k/Agentic-Figure-Drawing?style=flat-square&color=1a1b27" />
+</p>
+
+</td>
+<!-- Boilergrams card -->
+<td width="50%" valign="top">
+
+<h3 align="center"><a href="https://devpost.com/software/boilergrams">Boilergrams</a></h3>
+<p align="center"><sub>HACKATHON PROJECT &nbsp;·&nbsp; BOILERMAKE XI</sub></p>
+
+Award winner at Boilermake XI for Most Creative Use of Redis Cloud.
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=redis" />
+</p>
+
+<p align="center">
+  <a href="https://devpost.com/software/boilergrams"><img src="https://img.shields.io/badge/View%20on%20Devpost-003E54?style=flat-square&logo=devpost&logoColor=white" /></a>
+  <img src="https://img.shields.io/badge/Winner-Most%20Creative%20Use%20of%20Redis%20Cloud-DC382D?style=flat-square&logo=redis&logoColor=white" />
+</p>
+
+</td>
+</tr>
+</table>
 
 <!-- Footer banner -->
 <p align="center">
