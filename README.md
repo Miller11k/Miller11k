@@ -1,211 +1,94 @@
-# SAGE
+<!-- Header banner -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0e75b6,100:1a1b27&height=200&section=header&text=Miller%20Kodish&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Computer%20Engineer%20%C2%B7%20M.S.%20ECE%2C%20Purdue%20University&descSize=18&descAlignY=58" alt="header" />
+</p>
 
-SAGE is a session-aware diagram and image editing prototype built around OpenAI reasoning workflows. It imports Draw.io/diagrams.net XML, Mermaid, and reference images; generates editable diagrams; supports prompt-guided and direct diagram edits; generates and edits images; handles localized mask edits; stores artifacts; records traces; and preserves version history with revert.
+<!-- Typing tagline -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=0E75B6&center=true&vCenter=true&width=620&lines=Software+Engineer;Backend+%2B+systems+engineering;Agentic+AI+pipelines" alt="typing" />
+</p>
 
-OpenAI is the reasoning, validation, and XML authority. Gemini can optionally be used for image generation, diagram visual drafts, and mask-guided image editing.
+<!-- Contact badges -->
+<p align="center">
+  <a href="https://millerkodish.com"><img src="https://img.shields.io/badge/Portfolio-millerkodish.com-0e75b6?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/miller-kodish"><img src="https://img.shields.io/badge/LinkedIn-miller--kodish-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:m.kodish@yahoo.com"><img src="https://img.shields.io/badge/Email-m.kodish%40yahoo.com-6001D2?style=for-the-badge&logo=yahoo&logoColor=white" /></a>
+  <img src="https://komarev.com/ghpvc/?username=miller11k&label=Profile%20views&color=0e75b6&style=for-the-badge" />
+</p>
 
-## Stack
+---
 
-- Next.js App Router, React, TypeScript, Tailwind CSS
-- Zustand, TanStack Query, Prisma with SQLite
-- Draw.io XML, Mermaid import, structured `DiagramModel` conversion
-- Local artifact storage, Docker/Docker Compose
-- OpenAI wrappers for structured reasoning, XML repair/editing, and image workflows
-- Optional Gemini Nano Banana 2 image support
-- Sharp-backed diagram verification snapshots
-- Vitest coverage for routes, workflows, XML, masks, and frontend request shaping
+## About
 
-## Architecture
+<table>
+<tr>
+<td width="55%" valign="top">
 
-- `app/api/*` — typed route handlers with Zod validation.
-- `lib/workflows/*` — diagram and image workflow orchestration.
-- `lib/openai/*` and `lib/google/*` — provider clients, prompts, parsing, and service wrappers.
-- `lib/xml/drawio.ts` — Draw.io XML import, validation, repair, and serialization.
-- `lib/diagram/*` — diagram layout, SVG export, Mermaid import, and direct edit helpers.
-- `lib/session/*` — sessions, versions, history, revert, prompt metadata, and traces.
-- `lib/storage/*` — artifact persistence and local filesystem storage.
-- `features/*` — frontend diagram, image, and session UI/state.
-- `types/core.ts` — shared contracts for backend, workflows, and UI.
+- **M.S. Electrical & Computer Engineering**, Purdue (2026)
+- **B.S. Computer Engineering**, Purdue (2025), minor in Economics
 
-Every meaningful operation is stored as a session version. Versions can point to Draw.io XML, diagram models, generated images, uploads, masks, and traces.
+</td>
+<td width="45%" valign="top">
 
-## Workflows
-
-### Diagram Import
-
-`POST /api/diagram/import` accepts Draw.io XML or Mermaid source, repairs/normalizes where possible, converts to `DiagramModel`, serializes Draw.io XML, and stores a version. `POST /api/diagram/import-image` uses OpenAI vision to reconstruct an editable `DiagramSpec` from PNG/JPEG/WebP references.
-
-### Diagram Generation
-
-`POST /api/diagram/generate` expands the prompt, optionally creates a visual draft, produces a structured `DiagramSpec`, converts it to a `DiagramModel`, serializes and validates Draw.io XML, optionally verifies the rendered result, and persists artifacts/metadata/traces.
-
-### Diagram Editing
-
-`POST /api/diagram/edit` parses intent, resolves targets, plans edits, transforms XML, validates/repairs the result, imports the model, and stores a new version. `POST /api/diagram/direct-edit` applies structured canvas operations deterministically.
-
-The canvas supports layout modes, orthogonal routing, imported waypoints, manual zoom, fit-to-view, source inspection, XML export, and history-based undo/redo.
-
-### Image Workflows
-
-`POST /api/image/generate` uses the selected image provider and stores the generated artifact. `POST /api/image/edit` supports uploaded/generated images with optional masks. Mask tools include paint/erase, lasso fill, brush size, opacity, feathering, undo/redo, clear, preview, and export.
-
-### Revert and History
-
-`POST /api/session/:id/revert` moves the current-version pointer without rewriting history. `GET /api/session/:id` returns versions, artifacts, prompt metadata, and workflow state. Browser storage keeps lightweight editor state across refreshes.
-
-## Setup
-
-### Docker
-
-```bash
-cp .env.example .env
-# Set OPENAI_API_KEY in .env
-npm run docker:build
-npm run docker:up
+```yaml
+miller:
+  focus: [backend, systems programming, AI tooling]
+  also: [frontend (React, Next.js)]
+  learning: [distributed systems, agentic pipelines]
 ```
 
-For a mounted development container:
+</td>
+</tr>
+</table>
 
-```bash
-npm run docker:dev
-```
+---
 
-Open `http://localhost:3000`. Docker volumes store SQLite data and generated artifacts.
+## Tech Stack
 
-### Local Node
+**Languages**
+<p>
+  <img src="https://skillicons.dev/icons?i=c,cpp,py,java,ts,js,swift,bash,html,css&perline=10" />
+</p>
 
-```bash
-npm install
-cp .env.example .env
-```
+**Frameworks and Data**
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,fastapi,nodejs,prisma,mysql,postgres,sqlite,redis&perline=10" />
+</p>
 
-Set at least:
+**Tools**
+<p>
+  <img src="https://skillicons.dev/icons?i=linux,docker,git,github,vscode&perline=10" />
+</p>
 
-```bash
-OPENAI_API_KEY="your-openai-api-key"
-DATABASE_URL="file:./dev.db"
-```
+---
 
-Optional Gemini image support:
+## Featured Work
 
-```bash
-GOOGLE_API_KEY="your-google-api-key"
-GOOGLE_IMAGE_MODEL="gemini-3.1-flash-image-preview"
-IMAGE_GENERATION_PROVIDER="gemini"
-DIAGRAM_IMAGE_PROVIDER="gemini"
-```
+<p align="center">
+  <a href="https://github.com/miller11k/Agentic-Figure-Drawing"><img src="https://img.shields.io/badge/SAGE-Agentic--Figure--Drawing-0e75b6?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <img src="https://img.shields.io/github/languages/top/miller11k/Agentic-Figure-Drawing?style=for-the-badge&color=1a1b27&labelColor=0e75b6" />
+  <img src="https://img.shields.io/github/last-commit/miller11k/Agentic-Figure-Drawing?style=for-the-badge&color=1a1b27&labelColor=0e75b6" />
+</p>
 
-Run the app:
+| Project | What it is | Stack |
+|---|---|---|
+| **SAGE** (team) | Agentic diagram editor: multi-step pipeline that parses intent, plans edits, and validates/repairs draw.io XML with full version history | Next.js, TypeScript, Prisma, OpenAI |
+| **Boilergrams** | Boilermake XI winner, *Most Creative Use of Redis Cloud* | Redis Cloud |
 
-```bash
-npm run prisma:generate
-npm run prisma:migrate
-npm run dev
-```
+<p align="center">
+  <a href="https://devpost.com/software/boilergrams"><img src="https://img.shields.io/badge/Boilermake%20XI-Most%20Creative%20Use%20of%20Redis%20Cloud-DC382D?style=for-the-badge&logo=redis&logoColor=white" /></a>
+</p>
 
-## Commands
+---
 
-```bash
-npm run typecheck
-npm run lint
-npm test
-npm run validate
-npm run build
-npm run build:isolated
-npm run docker:build
-npm run docker:up
-npm run docker:dev
-npm run seed:demo
-npm run prisma:studio
-```
+## GitHub
 
-Use `npm run build:isolated` on Windows or when a dev server owns `.next/`. `npm run seed:demo` creates a local demo session and writes artifact bytes under `public/artifacts/`.
+<p align="center">
+  <img src="https://img.shields.io/github/followers/miller11k?style=for-the-badge&logo=github&color=1a1b27&labelColor=0e75b6" />
+  <img src="https://img.shields.io/github/stars/miller11k?style=for-the-badge&logo=github&color=1a1b27&labelColor=0e75b6" />
+</p>
 
-## API Surface
-
-- `POST /api/session/create`
-- `GET /api/session/:id`
-- `POST /api/session/:id/revert`
-- `POST /api/diagram/import`
-- `POST /api/diagram/import-image`
-- `POST /api/diagram/generate`
-- `POST /api/diagram/edit`
-- `POST /api/diagram/direct-edit`
-- `POST /api/image/generate`
-- `POST /api/image/edit`
-- `POST /api/upload`
-- `GET /api/health`
-- `GET /api/artifact/:id`
-- `GET /api/download/:id`
-- `GET /api/traces/:sessionId`
-
-## Testing
-
-The deterministic Vitest suite covers provider response parsing, traces, API routes, session/revert behavior, Draw.io XML repair and round-tripping, Mermaid import, diagram layout/routing, reference-image reconstruction, direct edits, mask normalization, and frontend request shaping.
-
-`npm run validate` runs lint, typecheck, tests, and an isolated build. The live OpenAI smoke test is opt-in with `LIVE_OPENAI_SMOKE=1`.
-
-## Report and Paper Artifacts
-
-Artifacts from the ASE Tools-style paper. Larger versions of paper figures are included here for easier inspection.
-
-### System Workflow Figures
-
-**Structured diagram-editing workflow** — prompt input → model-assisted reasoning → deterministic transformation → versioned Draw.io XML output:
-
-![Structured diagram editing workflow](structured_diagram_editing_workflow.jpg)
-
-**Image-editing workflow** — prompt and mask input → model-assisted image editing → artifact linking → versioned image output:
-
-![Image editing workflow](image_editing_workflow.jpg)
-
-### Demonstrated Workflow
-
-**Reference input** — original Kubernetes cluster architecture diagram used as the reconstruction benchmark input:
-
-![Kubernetes reference diagram](kubernetes_reference.png)
-
-**Diagram reconstruction output** — final structured diagram after the prompt-guided edit sequence:
-
-![Kubernetes final diagram result](kubernetes_final_result.png)
-
-**Image editing output** — final result after sequential semantic edits to the Kubernetes diagram:
-
-![Kubernetes image edit final](image_edit_kubernetes_final.png)
-
-### Additional Report Materials
-
-Report-ready descriptions for the system architecture diagram, internal data-flow diagram, session history/versioning diagram, evaluation workflow figure, evaluation plan, limitations, and future work are in:
-
-- `docs/report-artifacts.md`
-
-Local fixtures for report screenshots and repeatable demos live in `public/samples/`:
-
-- `basic.drawio`
-- `demo-architecture.drawio`
-- `demo-source-image.svg`
-- `evaluation-fixtures.json`
-
-Benchmark-oriented fixtures live in `benchmarks/fixtures/`:
-
-- `benchmark-suite.json`
-- `xml-compatibility.drawio`
-- `recoverability-missing-root.xml`
-
-## Known Limitations
-
-- The canvas is intentionally lighter than diagrams.net: no custom shape libraries, plugin registries, or full keyboard command parity.
-- Exotic Draw.io features may still need repair after round-trip.
-- Mermaid import covers flowchart/graph, sequence, class, and state diagrams.
-- Gemini mask editing uses multimodal source+mask input; OpenAI remains stricter for pixel-protected edits.
-- Diagram verification is conservative and does not reconstruct missing topology.
-- The mask editor does not include semantic segmentation or AI-assisted region selection.
-- Authentication, multi-user authorization, hosted object storage, and production observability are out of scope.
-
-## Future Work
-
-- Cloud artifact storage and authenticated multi-user sessions.
-- Automated benchmark runners for XML compatibility, edit quality, latency, and recoverability.
-- Advanced diagram-editor commands: multi-select alignment, distribute, snap guides, richer routing, custom shape libraries, and keyboard parity.
-- Semantic image-mask selection, object-aware inpainting previews, and stronger provider-specific protection checks.
-- Async job queues, cancellation, and progress streaming for long-running workflows.
+<!-- Footer banner -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,100:0e75b6&height=120&section=footer" />
+</p>
