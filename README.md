@@ -34,7 +34,7 @@
 miller:
   focus: [backend, systems programming]
   also: [frontend (React, Next.js)]
-  learning: [distributed systems, agentic pipelines]
+  learning: [distributed systems]
 ```
 
 </td>
